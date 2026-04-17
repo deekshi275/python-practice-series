@@ -33,7 +33,6 @@ t3 = Typecheck()
 t1.name ='typing'
 t2.name = 'spell'
 t3.name = 'auto'
-
 t2.daemon = True
 t3.daemon = True
 
