@@ -40,9 +40,7 @@ db = DBprocess()
 t1 = Thread(target=db.run,name='rama')
 t2 = Thread(target=db.run,name='sita')
 
-t1.start()
-time.sleep(1)
-t2.start()
+
 
 
 
